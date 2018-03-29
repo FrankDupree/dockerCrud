@@ -1,0 +1,41 @@
+{
+  "name": "express-api-demo",
+  "version": "1.0.0",
+  "description": "A demo using express JS to build an API.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jasmine tests/",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "express",
+    "js",
+    "demo",
+    "api"
+  ],
+  "author": "Frank Akogun",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "body-parser": "^1.17.1",
+    "dotenv": "^4.0.0",
+    "ejs": "^2.5.7",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.6"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {
+    "nodemon": "^1.13.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}
